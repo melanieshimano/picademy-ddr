@@ -29,11 +29,15 @@ name = input("What's your name?")
 
 #game directions
 print ("Welcome to Raspberr Pi DDR" + str(name) + "!")
+sleep(3)
 print("After the countdown, the LED will prompt you with dancing directions")
+sleep(3)
 print("Use your hands to point in the direction of arrows")
+sleep(3)
 print("When you're finished, @Picademy_DDR will tweet out a gif of your epic dance battle on Twitter")
+sleep(3.5)
 print("Good Luck!")
-sleep(10)
+sleep(3)
 
 #colors for sense hat
 l =(255,255,0) #yellow
